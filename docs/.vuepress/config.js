@@ -16,11 +16,11 @@ var sb = fs.readdirSync(dirpath).filter(f => {
 .map(f => f.path)
 
 module.exports = {
-    title: 'Netlify CMS + VuePress',
-    description: 'Netlify + VuePress',
+    title: 'Netlify + VuePressによるドキュメント管理のテスト',
+    description: 'Netlify + VuePressによるドキュメント管理のテスト',
     themeConfig: {
       docsDir: 'docs',
-      repo: 'toshilow/netlify-cms-vuepress',
+      repo: 'coco224jp/netlify-cms-vuepress',
       sidebar: sb,
       lastUpdated: 'Last Updated'
     }
