@@ -20,7 +20,7 @@ module.exports = {
     description: 'Netlify + VuePressによるドキュメント管理のテスト',
     themeConfig: {
       docsDir: 'docs',
-      repo: 'coco224jp/netlify-cms-vuepress',
+      repo: 'coco224jp/netlify-cms',
       sidebar: sb,
       lastUpdated: 'Last Updated'
     }
